@@ -1,0 +1,17 @@
+{
+	"name": "ds_synapse_payrollSummary",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "",
+			"table": "sql_payroll_summary"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

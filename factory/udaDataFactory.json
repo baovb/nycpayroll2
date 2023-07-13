@@ -1,0 +1,17 @@
+{
+	"name": "udaDataFactory",
+	"properties": {
+		"globalParameters": {
+			"param_global": {
+				"type": "int",
+				"value": 2020
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "192f4de1-e35c-4f0c-a6b3-2eab0c5b7837",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}

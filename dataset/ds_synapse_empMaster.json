@@ -1,0 +1,17 @@
+{
+	"name": "ds_synapse_empMaster",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "",
+			"table": "sql_empMaster"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
